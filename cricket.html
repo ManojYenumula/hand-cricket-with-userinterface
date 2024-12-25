@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cricket.css">
+    <title>HAND-CRICKET</title>
+</head>
+<div class="heading">
+<button class="home" onclick="restart()">restart</button>
+<h1>HAND-CRICKET</h1>
+<button class="home" onclick="toss()">HOME</button>
+</div>
+<body>
+   <div>
+    <div class="container">
+        <div class="card" id="position"></div>
+    </div>
+    
+    
+    <div class="container">
+        
+        <span>
+            <div class="card1">
+                <h2>your choose</h2>
+            <button class="button"  onclick="userscore(1)">1</button>
+            <button class="button2" onclick="userscore(2)">2</button>
+            <button class="button3"  onclick="userscore(3)">3</button>
+            <button class="button4"  onclick="userscore(4)">4</button>
+            <button class="button6"  onclick="userscore(6)">6</button>
+        </div>
+        </span>
+        <span>
+            <div class="card2">
+                <h2>computer choose</h2>
+                <button class="button" id="button1"  >1</button>
+                <button class="button2" id="button2" >2</button>
+                <button class="button3" id="button3" >3</button>
+                <button class="button4" id="button4" >4</button>
+                <button class="button6" id="button6" >6</button>
+        </div>
+        </span>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="container">
+                <span id="yourchoose" class="choose"></span>
+                <span id="comchoose" class="choose"></span>
+            </div>
+            <h2 class="score1" id="score1"></h2>
+            <h2 class="empire" id="empire"></h2>
+            <h2 class="score2" id="score2"></h2>
+
+        </div>
+    </div>
+
+
+   </div>
+   
+
+
+
+    <script src="cricket.js"></script>
+    
+</body>
+</html>

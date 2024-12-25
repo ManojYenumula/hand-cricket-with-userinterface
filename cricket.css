@@ -1,0 +1,144 @@
+body,html{
+    height: 100%;
+    margin:0;
+    text-align: center;
+    background-color: #e7e5e5; 
+    
+}
+.card1, .card2, .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px;
+  }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.button{
+    background-color: rgb(75, 75, 214);
+    color:white;
+    border: none;
+    width:40px;
+    height: 40px;
+    border-radius: 20%;
+    box-shadow: 0 6px 6px rgba(26, 1, 1, 0.3);
+    margin-right:4px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+.button2{
+    background-color: rgb(198, 13, 13);
+    color:white;
+    border: none;
+    width:40px;
+    height: 40px;
+    border-radius: 20%;
+    box-shadow: 0 6px 6px rgba(26, 1, 1, 0.3);
+    margin-right:4px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+.button3{
+    background-color: rgb(144, 172, 3);
+    color:white;
+    border: none;
+    width:40px;
+    height: 40px;
+    border-radius: 20%;
+    box-shadow: 0 6px 6px rgba(26, 1, 1, 0.3); 
+    margin-right:4px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+.button4{
+    background-color: rgb(118, 96, 9);
+    color:white;
+    border: none;
+    width:40px;
+    height: 40px;
+    border-radius: 20%;
+    box-shadow: 0 6px 6px rgba(26, 1, 1, 0.3);
+    margin-right:4px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+.button6{
+    background-color: rgb(33, 58, 103);
+    color:white;
+    border: none;
+    width:40px;
+    height: 40px;
+    border-radius: 20%;
+    box-shadow: 0 6px 6px rgba(26, 1, 1, 0.3);
+    margin-right:4px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+.button:active, .button2:active, .button3:active, .button4:active, .button6:active{
+    transform: translateY(4px) translateX(2px);
+}
+.choose{
+    border: none;
+    padding: 15px 20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(59, 59, 190);
+    border-radius: 20%;
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.highlight1{
+    transform: translateY(4px) translateX(2px);
+}
+.highlight2{
+    transform: translateY(0px) translateX(0px);
+}
+.home{
+    
+    background-color: red;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius:10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.home:active{
+    border: 1px solid grey;
+    background-color: white;
+    color:red;
+}
+@media (max-width: 768px) {
+.card2{
+    display: none;
+    
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: inline;
+    font-size: small;
+    ;
+}
+  }

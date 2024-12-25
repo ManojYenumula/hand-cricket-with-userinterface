@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="toss.css">
+  <title>toss</title>
+</head>
+<body>
+  <div class="container">
+  <div class="card">
+    <div id="block" class="visible">
+    <h3>choose head or tail</h3>
+    <div class="choose">
+      <button id="button" class="button" onclick="heads()">head</button>
+      <button id="button" class="button" onclick="tail()">tail</button>
+      
+    </div>
+    <div class="coin-container">
+    <div class="coin" id="coin">H</div>
+    <button onclick="flipcoin()">Flip Coin</button>
+  </div>
+    <div class="res" id="res"><h2></h2></div>
+    
+    
+    </div>
+
+    <div id="tosswon" class="hidden">
+      <h2>choose bat or bowl</h2>
+      <button class="won" onclick="batting()">batting</button>
+      <button class="won" onclick="bowling()">bowling</button>
+    </div>
+    <div id="woned">
+      <div id="result"><h3></h3></div>
+    </div>
+
+  </div>
+</div>
+<script src="toss.js"></script>
+</body>
+</html>
